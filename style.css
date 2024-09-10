@@ -254,6 +254,36 @@ nav a:hover {
     margin-bottom: 40px;
 }
 
+.package-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #3b3b3b;
+}
+
+.package-item-page {
+    border: 1px solid #3b3b3b;
+}
+
+.package-item:hover {
+    background-color: #3b3b3b;
+    text-decoration: underline;
+}
+
+.class-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #3b3b3b;
+}
+
+.class-item:hover {
+    background-color: #3b3b3b;
+    text-decoration: underline;
+}
+
 /* Responsive */
 @media (max-width: 700px) {
     .container {
