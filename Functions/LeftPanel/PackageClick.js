@@ -4,6 +4,8 @@ export function handlePackageClick(packageId) {
     classItems.forEach(classItem => {
         if (classItem.getAttribute('data-package-id') === packageId) {
             classItem.style.display = 'list-item';
+        } else if (packageId === 'all') {
+            classItem.style.display = 'list-item';
         } else {
             classItem.style.display = 'none';
         }

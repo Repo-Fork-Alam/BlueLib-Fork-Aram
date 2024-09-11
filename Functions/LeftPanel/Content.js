@@ -16,7 +16,7 @@ export const leftPanelContent = `
         </div>
         <div class="resizer-horizontal"></div>
         <div class="bottom-panel">
-            <h3 style="margin-bottom: 5px; margin-top: 5px;">All Classes</h3>
+            <h3 class="package-item" style="margin-top: 5px; border-bottom: 0px" data-id="all">All Classes</h3>
             <ul style="list-style-type: none; padding-left: 0;">
                 <li class="class-item" data-package-id="software.bluelib" data-id="BlueLib">BlueLib</li>
                 <li class="class-item" data-package-id="software.bluelib.exception" data-id="CouldNotLoadJSON">CouldNotLoadJSON</li>

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BlueLib | API Documentation</title>
     <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../changelog.css">
 </head>
 <body>
     <header>
@@ -48,23 +49,20 @@
                 </div>
             </nav>
 
-            <h1>ReadMe</h1>
-            <p>
-                <h3>API(Application Programming Interface) Documentation</h3>
-                <p>This API Documentation has pages for Packages, Classes, Deprecated Classes, and Changelogs of the BlueLib Minecraft Library.</p>
-
-                <h3>BlueLib</h3>
-
-                <h3>Getting Started</h3>
-
-                <h3>Packages</h3>
-
-                <h3>Classes</h3>
-
-                <h3>Deprecated</h3>
-
-                <h3>Changelog</h3>
-            </p>
+                <h1 style="margin-bottom: 10px;">Changelog</h1>
+                <button class="collapsible">1.0.0</button>
+                <div class="content">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <li>Change 1</li>
+                                    <li>Change 2</li>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 
             <section id="additional-resources" class="section">
                 <h1>Additional Resources</h1>
@@ -80,5 +78,7 @@
     </div>
     <!-- Scripts -->
     <script type="module" src="../../Functions/LeftPanel/Loader.js"></script>
+    <script src="../../Functions/Collapsible.js"></script>
+    
 </body>
 </html>

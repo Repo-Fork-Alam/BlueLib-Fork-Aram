@@ -263,6 +263,10 @@ nav a:hover {
 }
 
 .package-item-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
     border: 1px solid #3b3b3b;
 }
 
@@ -277,6 +281,14 @@ nav a:hover {
     align-items: center;
     padding: 10px;
     border-bottom: 1px solid #3b3b3b;
+}
+
+.class-item-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #3b3b3b;
 }
 
 .class-item:hover {

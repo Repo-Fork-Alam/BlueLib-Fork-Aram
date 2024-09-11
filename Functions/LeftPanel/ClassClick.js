@@ -3,7 +3,7 @@ export function handleClassClick(classId) {
 
     document.querySelectorAll('.class-item').forEach(item => {
         if (item.getAttribute('data-id') === classId) {
-            item.style.backgroundColor = '#d3d3d3';
+            item.style.backgroundColor = '#3b3b3b';
         } else {
             item.style.backgroundColor = '';
         }
